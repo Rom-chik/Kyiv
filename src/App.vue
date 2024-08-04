@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Navigation from './components/Navigation.vue'
+import SideScrollCards from './components/SideScrollCards.vue'
 </script>
 
 <template>
@@ -9,8 +10,8 @@ import Navigation from './components/Navigation.vue'
   </div>
 
   <!-- Navigations Menu -->
-  <div class="flex w-full h-[90vh]">
-
+  <div class="flex w-full justify-center items-baseline h-[90vh]">
+      <Navigation/>
   </div>
   <!-- Timestamps -->
   <div class="flex w-full h-[50vh]">
@@ -18,8 +19,10 @@ import Navigation from './components/Navigation.vue'
   </div>
 
   <!-- Side scroll cards -->
-  <div class="flex w-full h-[100vh] bg-[#F0F0F0]">
-
+  <div class="w-full h-[100vh] bg-[#F0F0F0]">
+      <div class="side-scroll flex h-full justify-around gap-10 items-center">
+          <SideScrollCards/>
+      </div>
   </div>
 
   <!-- Bottom -->
@@ -29,5 +32,11 @@ import Navigation from './components/Navigation.vue'
 </template>
 
 <style scoped>
-
+    .side-scroll{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+      padding: 0; /* Reset padding if any */
+      margin: 0;
+    }
 </style>

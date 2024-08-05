@@ -58,5 +58,6 @@
   padding: 10px;
   cursor: pointer;
   border-radius: 10%;
+  background: #F0F0F0;
 }
 </style>

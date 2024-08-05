@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Navigation from './components/Navigation.vue'
 import SideScrollCards from './components/SideScrollCards.vue'
+import Timestamps from './components/Timestamps.vue'
 </script>
 
 <template>
@@ -10,17 +11,17 @@ import SideScrollCards from './components/SideScrollCards.vue'
   </div>
 
   <!-- Navigations Menu -->
-  <div class="flex w-full justify-center items-baseline h-[90vh]">
+  <div class="flex w-full justify-center items-baseline h-[60vh]">
       <Navigation/>
   </div>
   <!-- Timestamps -->
-  <div class="flex w-full h-[50vh]">
-
+  <div class="flex w-full justify-center items-baseline h-[50vh]">
+      <Timestamps/>
   </div>
 
   <!-- Side scroll cards -->
   <div class="w-full h-[100vh] bg-[#F0F0F0]">
-      <div class="side-scroll flex h-full justify-around gap-10 items-center">
+      <div class="side-scroll flex h-full justify-between gap-10 items-center">
           <SideScrollCards/>
       </div>
   </div>

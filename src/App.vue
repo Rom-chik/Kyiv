@@ -11,11 +11,11 @@ import Timestamps from './components/Timestamps.vue'
   </div>
 
   <!-- Navigations Menu -->
-  <div class="flex w-full justify-center items-baseline h-[60vh]">
+  <div class="flex w-full justify-center items-center h-[70vh]">
       <Navigation/>
   </div>
   <!-- Timestamps -->
-  <div class="flex w-full justify-center items-baseline h-[50vh]">
+  <div class="flex w-full gap-5 justify-center items-center h-[50vh]">
       <Timestamps/>
   </div>
 

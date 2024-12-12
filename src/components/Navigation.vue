@@ -14,9 +14,9 @@
       </div>
       <div class="row-start-1 row-end-10 nav-button">
           <div class="dropdown">
-              <a href="#">Clock</a>
-              <a href="#">Photo set</a>
-              <a href="#">Work in process</a>
+              <a href="#clock">Clock</a>
+              <a href="#photo-set">Photo set</a>
+              <a href="#work-in-process">Work in process</a>
           </div>
           <div class="text-5xl">Menu</div>
       </div>

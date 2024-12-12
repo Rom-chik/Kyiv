@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-ignore
     import { useCurrentTime } from '../composables/useCurrentTime';
 
     const { currentTime } = useCurrentTime();

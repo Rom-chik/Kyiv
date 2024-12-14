@@ -2,9 +2,20 @@
 import Navigation from './components/Navigation.vue'
 import SideScrollCards from './components/SideScrollCards.vue'
 import Timestamps from './components/Timestamps.vue'
+
+const switchDarkMode = () => {
+    const app = document.querySelector('#app');
+    if (app.classList.contains('dark')) {
+      app.classList.remove('dark');
+    } else {
+      app.classList.add('dark');
+    }
+}
+
 </script>
 
 <template>
+  <div class="bg-white dark:bg-black text-black dark:text-white">
   <!-- Header -->
   <div class="flex justify-center items-center w-full h-[40vh] text-9xl">
       K y i v
@@ -12,7 +23,7 @@ import Timestamps from './components/Timestamps.vue'
 
   <!-- Navigations Menu -->
   <div id="navigations" class="flex w-full justify-center items-center h-[70vh]">
-      <Navigation/>
+      <Navigation @switch-theme="switchDarkMode()"/>
   </div>
   <!-- Timestamps -->
   <div id="clock" class="flex w-full gap-5 justify-center items-center h-[50vh]">
@@ -20,7 +31,7 @@ import Timestamps from './components/Timestamps.vue'
   </div>
 
   <!-- Side scroll cards -->
-  <div id="photo-set" class="w-full h-[100vh] bg-[#F0F0F0]">
+  <div id="photo-set" class="w-full h-[100vh] bg-[#F0F0F0] dark:bg-zinc-950">
       <div class="side-scroll flex h-full justify-between gap-10 items-center">
           <SideScrollCards/>
       </div>
@@ -29,6 +40,7 @@ import Timestamps from './components/Timestamps.vue'
   <!-- Bottom -->
   <div id="work-in-process" class="flex w-full h-[70vh]">
 
+  </div>
   </div>
 </template>
 

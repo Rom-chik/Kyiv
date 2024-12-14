@@ -4,7 +4,7 @@
 
 <template>
 
-  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-[white] side-scroll-element">
+  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-white dark:bg-zinc-900 side-scroll-element">
     <div class="flex justify-center">
       <div class="grid grid-rows-2 grid-cols-2 gap-6 w-full h-full place-items-center">
         <div class="">
@@ -23,7 +23,7 @@
     </div>
   </div>
 
-  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-[white] side-scroll-element">
+  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-white dark:bg-zinc-900 side-scroll-element">
     <div class="flex justify-center">
       <div class="grid grid-rows-2 grid-cols-2 gap-6 w-full h-full place-items-center">
         <div class="">
@@ -42,7 +42,7 @@
     </div>
   </div>
 
-  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-[white] side-scroll-element">
+  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-white dark:bg-zinc-900 side-scroll-element">
     <div class="flex justify-center">
       <div class="grid grid-rows-2 grid-cols-2 gap-6 w-full h-full place-items-center">
         <div class="">
@@ -61,7 +61,7 @@
     </div>
   </div>
 
-  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-[white] side-scroll-element">
+  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-white dark:bg-zinc-900 side-scroll-element">
     <div class="flex justify-center">
       <div class="grid grid-rows-2 grid-cols-2 gap-6 w-full h-full place-items-center">
         <div class="">
@@ -79,7 +79,7 @@
       </div>
     </div>
   </div>
-  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-[white] side-scroll-element">
+  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-white dark:bg-zinc-900 side-scroll-element">
     <div class="flex justify-center">
       <div class="grid grid-rows-2 grid-cols-2 gap-6 w-full h-full place-items-center">
         <div class="">
@@ -98,7 +98,7 @@
     </div>
   </div>
 
-  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-[white] side-scroll-element">
+  <div class="flex justify-center items-center w-1/4 min-w-72 h-2/3 bg-white dark:bg-zinc-900 side-scroll-element">
     <div class="flex justify-center">
       <div class="grid grid-rows-2 grid-cols-2 gap-6 w-full h-full place-items-center">
         <div class="">
